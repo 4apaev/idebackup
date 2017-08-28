@@ -1,16 +1,22 @@
-<scheme name="Oceanic Next" version="142" parent_scheme="Darcula">
+<scheme name="Oceanic-Next-Prev" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
+  <metaInfo>
+    <property name="created">2017-08-28T22:41:53</property>
+    <property name="ide">WebStorm</property>
+    <property name="ideVersion">2017.2.2.0.0</property>
+    <property name="modified">2017-08-28T22:58:19</property>
+    <property name="originalScheme">Oceanic-Next copy</property>
+  </metaInfo>
   <option name="LINE_SPACING" value="1.1" />
   <option name="EDITOR_FONT_SIZE" value="12" />
   <option name="EDITOR_FONT_NAME" value="Monaco" />
-  <option name="EDITOR_LIGATURES" value="true" />
   <option name="CONSOLE_FONT_NAME" value="Menlo" />
   <option name="CONSOLE_FONT_SIZE" value="14" />
   <option name="CONSOLE_LINE_SPACING" value="1.2" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="343d46" />
     <option name="CARET_COLOR" value="65737e" />
-    <option name="CARET_ROW_COLOR" value="33424c" />
+    <option name="CARET_ROW_COLOR" value="28363c" />
     <option name="CONSOLE_BACKGROUND_KEY" value="1b2b34" />
     <option name="GUTTER_BACKGROUND" value="1b2b34" />
     <option name="INDENT_GUIDE" value="343d46" />
@@ -55,6 +61,12 @@
     <option name="BREAKPOINT_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="743d3d" />
+      </value>
+    </option>
+    <option name="BROWSEWORDATCARET">
+      <value>
+        <option name="BACKGROUND" value="50594f" />
+        <option name="ERROR_STRIPE_COLOR" value="6f856d" />
       </value>
     </option>
     <option name="BUILDOUT.KEY">
@@ -491,7 +503,7 @@
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="65737e" />
+        <option name="FOREGROUND" value="3b454c" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -504,7 +516,7 @@
     <option name="DEFAULT_CONSTANT" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_DOC_COMMENT">
       <value>
-        <option name="FOREGROUND" value="65737e" />
+        <option name="FOREGROUND" value="4b565d" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
@@ -533,7 +545,7 @@
     </option>
     <option name="DEFAULT_LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="65737e" />
+        <option name="FOREGROUND" value="3b454c" />
       </value>
     </option>
     <option name="DEFAULT_METADATA" baseAttributes="TEXT" />
@@ -652,7 +664,6 @@
     </option>
     <option name="ERRORS_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="ff6767" />
         <option name="ERROR_STRIPE_COLOR" value="cf5b56" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
@@ -665,8 +676,7 @@
     </option>
     <option name="FOLDED_TEXT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ab7967" />
-        <option name="BACKGROUND" value="4f5b66" />
+        <option name="FOREGROUND" value="4b565d" />
         <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
@@ -685,7 +695,6 @@
     </option>
     <option name="GENERIC_SERVER_ERROR_OR_WARNING">
       <value>
-        <option name="EFFECT_COLOR" value="f99157" />
         <option name="ERROR_STRIPE_COLOR" value="f49810" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
@@ -855,9 +864,7 @@
       </value>
     </option>
     <option name="INJECTED_LANGUAGE_FRAGMENT">
-      <value>
-        <option name="BACKGROUND" value="65737e" />
-      </value>
+      <value />
     </option>
     <option name="INSTANCE_FIELD_ATTRIBUTES">
       <value>
@@ -1090,7 +1097,6 @@
     <option name="JS.VALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="5fb3b3" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="LABEL">
@@ -2170,7 +2176,6 @@
     <option name="WARNING_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="4a3f10" />
-        <option name="EFFECT_COLOR" value="cdd3de" />
         <option name="ERROR_STRIPE_COLOR" value="ebc700" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
