@@ -1033,7 +1033,6 @@
     <option name="JS.INSTANCE_MEMBER_VARIABLE">
       <value>
         <option name="FOREGROUND" value="ec5f67" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="JS.INVALID_STRING_ESCAPE">
@@ -1055,6 +1054,12 @@
     <option name="JS.LOCAL_VARIABLE">
       <value>
         <option name="FOREGROUND" value="cdd3de" />
+      </value>
+    </option>
+    <option name="JS.MODULE_NAME">
+      <value>
+        <option name="FOREGROUND" value="cdd3de" />
+        <option name="BACKGROUND" value="1b2b34" />
       </value>
     </option>
     <option name="JS.NUMBER">
@@ -1085,6 +1090,12 @@
     <option name="JS.SEMICOLON">
       <value>
         <option name="FOREGROUND" value="5fb3b3" />
+      </value>
+    </option>
+    <option name="JS.STATIC_MEMBER_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="f7e780" />
+        <option name="BACKGROUND" value="1b2b34" />
       </value>
     </option>
     <option name="JS.STATIC_MEMBER_VARIABLE">
