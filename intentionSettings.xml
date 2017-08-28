@@ -1,0 +1,7 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="JavaScript/Convert parameters to object" />
+    <ignoreAction name="JavaScript/Convert to forEach call on array" />
+    <ignoreAction name="TypeScript/Specify variable type explicitly" />
+  </component>
+</application>
