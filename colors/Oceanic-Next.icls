@@ -1,10 +1,16 @@
 <scheme name="Oceanic-Next" version="142" parent_scheme="Darcula">
-  <option name="LINE_SPACING" value="1.1" />
-  <option name="EDITOR_FONT_SIZE" value="12" />
+  <option name="FONT_SCALE" value="1.0" />
+  <font>
+    <option name="EDITOR_FONT_NAME" value="Menlo" />
+    <option name="EDITOR_FONT_SIZE" value="12" />
+  </font>
+  <font>
+    <option name="EDITOR_FONT_NAME" value="Monaco" />
+    <option name="EDITOR_FONT_SIZE" value="12" />
+  </font>
   <option name="CONSOLE_FONT_NAME" value="Menlo" />
   <option name="CONSOLE_FONT_SIZE" value="14" />
   <option name="CONSOLE_LINE_SPACING" value="1.2" />
-  <option name="EDITOR_FONT_NAME" value="Monaco" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="343d46" />
     <option name="CARET_COLOR" value="65737e" />
@@ -985,6 +991,12 @@
     <option name="JS.BRACKETS">
       <value>
         <option name="FOREGROUND" value="5fb3b3" />
+      </value>
+    </option>
+    <option name="JS.CLASS">
+      <value>
+        <option name="FOREGROUND" value="f7bf5d" />
+        <option name="BACKGROUND" value="1b2b34" />
       </value>
     </option>
     <option name="JS.COMMA">
