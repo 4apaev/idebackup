@@ -1,11 +1,11 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '.../lib/respond.js - [nanomule]'" />
-    <option name="defaultScopeName" value="File '.../lib/respond.js - [nanomule]'" />
+    <option name="customScope" value="File '.../lib/util.js - [nanomule]'" />
+    <option name="defaultScopeName" value="File '.../lib/util.js - [nanomule]'" />
     <option name="localCaseSensitive" value="true" />
     <option name="localRegularExpressions" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="File '.../lib/respond.js - [nanomule]'" />
+    <option name="SEARCH_SCOPE" value="File '.../lib/util.js - [nanomule]'" />
   </component>
 </application>
