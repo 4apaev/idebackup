@@ -4,17 +4,13 @@
     <variable name="OBJECT" expression="jsArrayVariable()" defaultValue="&quot;obj&quot;" alwaysStopAt="true" />
     <variable name="CB" expression="" defaultValue="&quot;cb&quot;" alwaysStopAt="true" />
     <variable name="CTX" expression="" defaultValue="&quot;ctx&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="JS_STATEMENT" value="true" />
-    </context>
+    <context />
   </template>
   <template name="itar" value="for (let $INDEX$ = 0; $INDEX$ &lt; $ARRAY$.length; $INDEX$++) {&#10;  let $VAR$ = $ARRAY$[$INDEX$];&#10;  $END$&#10;}" description="Iterate elements of array" toReformat="true" toShortenFQNames="true">
     <variable name="INDEX" expression="jsSuggestIndexName()" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
     <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array&quot;" alwaysStopAt="true" />
     <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="JS_STATEMENT" value="true" />
-    </context>
+    <context />
   </template>
   <template name="lg" value="let log = console.debug.bind(console)" description="logger" toReformat="false" toShortenFQNames="true">
     <context>
@@ -45,7 +41,6 @@
   </template>
   <template name="args" value="let $VAR$ = [].slice.call(arguments)" description="slice arguments" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="&quot;args&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="dial" value="let $VAR$ = $CTX$.$METHOD$.call.bind($CTX$.$METHOD$)" description="dial" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
