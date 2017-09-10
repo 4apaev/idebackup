@@ -1,0 +1,8 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="JavaScript/Convert arrow function to anonymous function" />
+    <ignoreAction name="JavaScript/Swap method call arguments" />
+    <ignoreAction name="JavaScript/Declaration/Split Declaration And Initialization" />
+    <ignoreAction name="JavaScript/Declaration/Split Declaration And Move To Scope Start" />
+  </component>
+</application>

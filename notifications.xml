@@ -1,0 +1,11 @@
+<application>
+  <component name="NotificationConfiguration">
+    <notification groupId="Dependencies from package.json" displayType="STICKY_BALLOON" />
+    <notification groupId="File Watchers" shouldLog="false" />
+    <notification groupId="IDE and Plugin Updates" />
+    <notification groupId="MeteorProject" shouldLog="false" />
+    <notification groupId="Plugins Suggestion" displayType="STICKY_BALLOON" shouldLog="false" />
+    <notification groupId="Settings Repository" shouldReadAloud="true" />
+    <notification groupId="System Health" />
+  </component>
+</application>
