@@ -1,4 +1,18 @@
 <keymap version="1" name="sublime" parent="Mac OS X 10.5+">
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="meta x" />
+    <keyboard-shortcut first-keystroke="shift delete" />
+    <keyboard-shortcut first-keystroke="ctrl x" />
+  </action>
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift meta z" />
+    <keyboard-shortcut first-keystroke="shift alt back_space" />
+    <keyboard-shortcut first-keystroke="shift ctrl z" />
+  </action>
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="meta z" />
+    <keyboard-shortcut first-keystroke="ctrl z" />
+  </action>
   <action id="ChangesView.AddUnversioned" />
   <action id="ChangesView.Revert" />
   <action id="CheckinProject" />
@@ -20,6 +34,15 @@
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
+  <action id="Editor Cut">
+    <keyboard-shortcut first-keystroke="ctrl x" />
+  </action>
+  <action id="Editor Redo">
+    <keyboard-shortcut first-keystroke="shift ctrl z" />
+  </action>
+  <action id="Editor Undo">
+    <keyboard-shortcut first-keystroke="ctrl z" />
+  </action>
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="shift ctrl up" />
   </action>
@@ -32,6 +55,9 @@
   <action id="EditorMoveToPageTopWithSelection" />
   <action id="EditorResetFontSize">
     <keyboard-shortcut first-keystroke="meta 0" />
+  </action>
+  <action id="EditorRight">
+    <keyboard-shortcut first-keystroke="right" />
   </action>
   <action id="EditorTextEnd">
     <keyboard-shortcut first-keystroke="meta end" />
@@ -51,6 +77,14 @@
   </action>
   <action id="ExpandDocComments">
     <keyboard-shortcut first-keystroke="shift meta quote" />
+  </action>
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="meta f" />
+    <keyboard-shortcut first-keystroke="ctrl f" />
+  </action>
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="meta g" />
+    <keyboard-shortcut first-keystroke="ctrl g" />
   </action>
   <action id="GotoRelated" />
   <action id="InspectCode">
@@ -82,6 +116,7 @@
   <action id="Replace">
     <keyboard-shortcut first-keystroke="meta r" />
     <keyboard-shortcut first-keystroke="meta alt f" />
+    <keyboard-shortcut first-keystroke="shift ctrl f" />
   </action>
   <action id="ResizeToolWindowDown" />
   <action id="ResizeToolWindowUp" />
@@ -89,6 +124,7 @@
     <keyboard-shortcut first-keystroke="meta alt r" />
   </action>
   <action id="Resume" />
+  <action id="SelectNextOccurrence" />
   <action id="ShowContent" />
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="alt home" />
@@ -108,6 +144,7 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
+  <action id="Uml.CollapseNodes" />
   <action id="Vcs.Push" />
   <action id="VcsHistory.ShowAllAffected" />
 </keymap>
