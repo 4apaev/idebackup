@@ -1,11 +1,11 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '.../school/models.py - [first]'" />
-    <option name="defaultScopeName" value="File '.../school/models.py - [first]'" />
+    <option name="customScope" value="Project 'uni'" />
+    <option name="defaultScopeName" value="Project 'uni'" />
     <option name="localCaseSensitive" value="true" />
     <option name="localRegularExpressions" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="File '.../school/models.py - [first]'" />
+    <option name="SEARCH_SCOPE" value="Project 'uni'" />
   </component>
 </application>
