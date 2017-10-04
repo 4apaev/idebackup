@@ -1,11 +1,11 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '.../src/app/services/data.service.ts - [uni]'" />
-    <option name="defaultScopeName" value="File '.../src/app/services/data.service.ts - [uni]'" />
+    <option name="customScope" value="File '.../uni/views.py - [almamater]'" />
+    <option name="defaultScopeName" value="File '.../uni/views.py - [almamater]'" />
     <option name="localCaseSensitive" value="true" />
     <option name="localRegularExpressions" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="File '.../src/app/services/data.service.ts - [uni]'" />
+    <option name="SEARCH_SCOPE" value="File '.../uni/views.py - [almamater]'" />
   </component>
 </application>
