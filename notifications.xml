@@ -1,7 +1,0 @@
-<application>
-  <component name="NotificationConfiguration">
-    <notification groupId="File Watcher Messages" displayType="STICKY_BALLOON" shouldLog="false" />
-    <notification groupId="File Watchers" shouldLog="false" />
-    <notification groupId="Quokka Notifications" displayType="STICKY_BALLOON" shouldLog="false" />
-  </component>
-</application>
