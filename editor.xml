@@ -7,7 +7,6 @@
   <component name="EditorSettings">
     <option name="IS_WHITESPACES_SHOWN" value="true" />
     <option name="IS_DND_ENABLED" value="false" />
-    <option name="SHOW_PARAMETER_NAME_HINTS" value="false" />
   </component>
   <component name="InspectionProfileManager">
     <info color="525229">
@@ -28,9 +27,6 @@
       <item index="6" class="java.lang.String" itemvalue="WARNING" />
       <item index="7" class="java.lang.String" itemvalue="ERROR" />
     </list>
-  </component>
-  <component name="SqlEditorOptions">
-    <option name="qualificationType" value="On collisions" />
   </component>
   <component name="XmlEditorOptions">
     <option name="showCssInlineColorPreview" value="true" />
