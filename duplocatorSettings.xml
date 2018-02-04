@@ -2,10 +2,14 @@
   <component name="DuplocatorSettings">
     <option name="SELECTED_PROFILES">
       <set>
+        <option value="ECMA Script Level 4" />
         <option value="ECMAScript 6" />
+        <option value="Flow JS" />
+        <option value="HTML" />
+        <option value="JSX Harmony" />
         <option value="JavaScript" />
       </set>
     </option>
-    <option name="LAST_SELECTED_LANGUAGE" value="JavaScript" />
+    <option name="LAST_SELECTED_LANGUAGE" value="TypeScript" />
   </component>
 </application>
