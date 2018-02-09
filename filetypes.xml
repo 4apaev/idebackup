@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="node" type="PLAIN_TEXT" />
       <mapping ext="pyc" type="PLAIN_TEXT" />
+      <mapping ext="sdef" type="XML" />
       <mapping ext="fnc" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
       <mapping ext="pkg" type="DBN-PSQL" />
