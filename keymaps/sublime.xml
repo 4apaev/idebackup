@@ -89,6 +89,9 @@
     <keyboard-shortcut first-keystroke="meta alt r" />
   </action>
   <action id="Resume" />
+  <action id="SaveAs">
+    <keyboard-shortcut first-keystroke="shift meta s" />
+  </action>
   <action id="ShowContent" />
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="alt home" />
