@@ -1,5 +1,6 @@
 <keymap version="1" name="sublime" parent="Mac OS X 10.5+">
   <action id="ChangesView.AddUnversioned" />
+  <action id="ChangesView.Diff" />
   <action id="ChangesView.Revert" />
   <action id="CheckinProject" />
   <action id="CodeCleanup">
@@ -11,6 +12,12 @@
   <action id="Compare.Selected">
     <keyboard-shortcut first-keystroke="meta alt d" />
   </action>
+  <action id="CompareTwoFiles" />
+  <action id="Console.TableResult.CloneRow" />
+  <action id="Console.TableResult.CompareCells" />
+  <action id="DatabaseView.CopyAction" />
+  <action id="Diff.ShowDiff" />
+  <action id="Diff.ShowSettingsPopup" />
   <action id="DomCollectionControl.Edit">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -25,6 +32,10 @@
   </action>
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="shift ctrl down" />
+  </action>
+  <action id="EditorDuplicate" />
+  <action id="EditorDuplicateLines">
+    <keyboard-shortcut first-keystroke="shift meta d" />
   </action>
   <action id="EditorMoveToPageBottom" />
   <action id="EditorMoveToPageBottomWithSelection" />
@@ -52,6 +63,7 @@
   <action id="ExpandDocComments">
     <keyboard-shortcut first-keystroke="shift meta quote" />
   </action>
+  <action id="FileChooser.GotoDesktop" />
   <action id="GotoRelated" />
   <action id="InspectCode">
     <keyboard-shortcut first-keystroke="f12" />
@@ -89,9 +101,15 @@
     <keyboard-shortcut first-keystroke="meta alt r" />
   </action>
   <action id="Resume" />
+  <action id="RunDashboard.CopyConfiguration" />
   <action id="SaveAs">
     <keyboard-shortcut first-keystroke="shift meta s" />
   </action>
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+    <keyboard-shortcut first-keystroke="meta d" />
+  </action>
+  <action id="SendEOF" />
   <action id="ShowContent" />
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="alt home" />
@@ -111,6 +129,9 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
+  <action id="Uml.ShowDiff" />
   <action id="Vcs.Push" />
   <action id="VcsHistory.ShowAllAffected" />
+  <action id="XDebugger.CopyWatch" />
+  <action id="openAssertEqualsDiff" />
 </keymap>
