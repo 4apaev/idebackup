@@ -4,7 +4,7 @@
     <property name="created">2017-08-28T22:39:39</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.2.2.0.0</property>
-    <property name="modified">2017-12-05T10:48:21</property>
+    <property name="modified">2018-03-25T18:21:41</property>
     <property name="originalScheme">Oceanic-Next</property>
   </metaInfo>
   <option name="CONSOLE_FONT_NAME" value="Menlo" />
@@ -494,7 +494,7 @@
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="3b454c" />
+        <option name="FOREGROUND" value="646f76" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -517,7 +517,7 @@
     <option name="DEFAULT_CONSTANT" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_DOC_COMMENT">
       <value>
-        <option name="FOREGROUND" value="4b565d" />
+        <option name="FOREGROUND" value="646f76" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
@@ -550,7 +550,7 @@
     </option>
     <option name="DEFAULT_LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="3b454c" />
+        <option name="FOREGROUND" value="646f76" />
       </value>
     </option>
     <option name="DEFAULT_METADATA" baseAttributes="TEXT" />
