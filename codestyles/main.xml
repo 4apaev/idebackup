@@ -49,7 +49,7 @@
     <option name="ALIGN_IMPORTS" value="true" />
     <option name="USE_CHAINED_CALLS_GROUP_INDENTS" value="true" />
     <option name="SPACES_WITHIN_INTERPOLATION_EXPRESSIONS" value="true" />
-    <option name="IMPORT_SORT_MEMBERS" value="false" />
+    <option name="IMPORT_SORT_MODULE_NAME" value="true" />
   </JSCodeStyleSettings>
   <JSON>
     <option name="PROPERTY_ALIGNMENT" value="1" />
