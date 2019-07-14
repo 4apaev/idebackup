@@ -12,13 +12,13 @@
     <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="lg" value="let log = console.debug.bind(console)" description="logger" toReformat="false" toShortenFQNames="true">
+  <template name="lg" value="const { log } = console" description="logger" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="wi" value="let $INDEX$ = -1;&#10;while(++i &lt; $ARRAY$.length) {&#10;  if($CB$($ARRAY$[$INDEX$], $INDEX$, $ARRAY$))&#10;    break;&#10;}" description="while" toReformat="false" toShortenFQNames="true">
+  <template name="wi" value="let $INDEX$ = -1;&#10;while (++i &lt; $ARRAY$.length) {&#10;  if ($CB$($ARRAY$[ $INDEX$ ], $INDEX$, $ARRAY$))&#10;    break;&#10;}" description="while" toReformat="false" toShortenFQNames="true">
     <variable name="INDEX" expression="jsSuggestIndexName()" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
     <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;arr&quot;" alwaysStopAt="true" />
     <variable name="CB" expression="jsMethodName()" defaultValue="&quot;cb&quot;" alwaysStopAt="true" />
@@ -26,28 +26,96 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="rq" value="let $NAME$ = require('$FILE_PATH$')" description="require" toReformat="false" toShortenFQNames="true">
+  <template name="rq" value="const $NAME$ = require('$FILE_PATH$')" description="require" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <variable name="FILE_PATH" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_EXPRESSION" value="true" />
     </context>
   </template>
-  <template name="JS" value="JSON.stringify($VAR$, 0, 2)" description="json stringify" toReformat="false" toShortenFQNames="true">
+  <template name="tos" value="JSON.stringify($VAR$, 0, 2)" description="json stringify" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="&quot;obj&quot;" alwaysStopAt="true" />
     <context>
       <option name="JS_EXPRESSION" value="true" />
     </context>
   </template>
-  <template name="args" value="let $VAR$ = [].slice.call(arguments)" description="slice arguments" toReformat="false" toShortenFQNames="true">
-    <variable name="VAR" expression="" defaultValue="&quot;args&quot;" alwaysStopAt="true" />
+  <template name="ritar" value="for (let $INDEX$ = $ARRAY$.length; $INDEX$--; ) {&#10;  const $VAR$ = $ARRAY$[ $INDEX$ ]&#10;  $END$&#10;}" description="Iterate elements of array in reverse order" toReformat="true" toShortenFQNames="true">
+    <variable name="INDEX" expression="jsSuggestIndexName()" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array&quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
+    <context />
   </template>
-  <template name="dial" value="let $VAR$ = $CTX$.$METHOD$.call.bind($CTX$.$METHOD$)" description="dial" toReformat="false" toShortenFQNames="true">
-    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="CTX" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="METHOD" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="imp" value="import { $ITEM$$END$ } from '$MODULE$'&#10;" description="Import statement - import {b} from 'a'" toReformat="true" toShortenFQNames="true">
+    <variable name="ITEM" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="MODULE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JS_EXPRESSION" value="true" />
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="impas" value="import * as $ITEM$ from '$MODULE$'&#10;$END$" description="Import statement - import * as b from 'a'" toReformat="true" toShortenFQNames="true">
+    <variable name="MODULE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="ITEM" expression="jsSuggestImportedEntityName()" defaultValue="Namespace" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="impdef" value="import $ITEM$ from '$MODULE$'&#10;$END$" description="Import statement - import b from 'a'" toReformat="true" toShortenFQNames="true">
+    <variable name="ITEM" expression="jsSuggestImportedEntityName()" defaultValue="Namespace" alwaysStopAt="true" />
+    <variable name="MODULE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="expa" value="export * from '$MODULE$'&#10;$END$" description="Export statement - export * from 'a'" toReformat="true" toShortenFQNames="true">
+    <variable name="MODULE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="expf" value="export { $ITEM$$END$ } from '$MODULE$'&#10;" description="Export statement - export {b} from 'a'" toReformat="true" toShortenFQNames="true">
+    <variable name="ITEM" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="MODULE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="exp" value="export { $ITEM$$END$ }&#10;" description="Export statement - export {b}" toReformat="true" toShortenFQNames="true">
+    <variable name="ITEM" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="obj" value="const { keys, assign, entries, defineProperty } = Object" description="Object spread" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="itof" value="for (const [ $k$, $v$ ] in $o$)&#10;  console.log($k$, $v$)" description="Iterate (for of)" toReformat="true" toShortenFQNames="true">
+    <variable name="k" expression="jsSuggestIndexName()" defaultValue="k" alwaysStopAt="false" />
+    <variable name="v" expression="jsSuggestVariableName()" defaultValue="v" alwaysStopAt="false" />
+    <variable name="o" expression="jsSuggestImportedEntityName()" defaultValue="o" alwaysStopAt="false" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="expd" value="export { default } from '$MODULE$'&#10;" description="Export statement - export {b} from 'a'" toReformat="true" toShortenFQNames="true">
+    <variable name="MODULE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="con" value="constructor(props) {&#10; super(props);&#10; $END$&#10;}&#10;" description="Adds a default constructor for the class that contains props as arguments" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_CLASS" value="true" />
     </context>
   </template>
 </templateSet>

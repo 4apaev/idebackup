@@ -1,0 +1,9 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern=".nycrc" type="JSON" />
+      <mapping pattern=".mocharc" type="JSON" />
+      <removed_mapping pattern=".nycrc" approved="true" type="JSCS" />
+    </extensionMap>
+  </component>
+</application>
