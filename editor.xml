@@ -15,8 +15,8 @@
     <option name="HIGHLIGHT_SCOPE" value="true" />
   </component>
   <component name="DefaultFont">
-    <option name="FONT_SIZE" value="10" />
-    <option name="FONT_FAMILY" value="SF Mono" />
+    <option name="FONT_SIZE" value="16" />
+    <option name="FONT_FAMILY" value="PT Mono" />
     <option name="USE_LIGATURES" value="true" />
     <option name="SECONDARY_FONT_FAMILY" value="Hack" />
   </component>
