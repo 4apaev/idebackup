@@ -1,0 +1,7 @@
+<list display="Lint">
+  <action id="EslintImportCodeStyle" />
+  <action id="Javascript.Linters.EsLint.Fix" />
+  <action id="Javascript.Linters.StandardJS.Fix" />
+  <action id="TslintImportCodeStyleAction" />
+  <action id="TsLintFileFixAction" />
+</list>

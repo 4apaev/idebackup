@@ -1,0 +1,9 @@
+<application>
+  <component name="ConsoleFoldingSettings">
+    <option name="addedNegative">
+      <list>
+        <option value="$USER_HOME$/Projects" />
+      </list>
+    </option>
+  </component>
+</application>

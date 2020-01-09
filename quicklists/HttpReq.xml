@@ -1,0 +1,10 @@
+<list display="HttpReq">
+  <action id="HTTPClient.AddRequest" />
+  <action id="com.intellij.ws.actions.ConvertCurlToHttpRequestAction" />
+  <action id="HTTP.Request.NewFile" />
+  <action id="RESTClient.RunRequest" />
+  <action id="HTTPClient.OpenCollection" />
+  <action id="HTTPClient.RunAll" />
+  <action id="RESTClient.ShowHistory" />
+  <action id="WebServicesPlugin.CreateRESTClient" />
+</list>

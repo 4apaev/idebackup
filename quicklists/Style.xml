@@ -1,0 +1,11 @@
+<list display="Style">
+  <action id="PrettierImportCodeStyleAction" />
+  <action id="ReformatWithPrettierAction" />
+  <action id="CodeInspection.OnEditor" />
+  <action id="ReformatCode" />
+  <action id="AutoIndentLines" />
+  <action id="RearrangeCode" />
+  <action id="InspectCode" />
+  <action id="CodeCleanup" />
+  <action id="SurroundWith" />
+</list>

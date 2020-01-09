@@ -1,0 +1,10 @@
+<list display="JS DEV">
+  <action id="NewJavaScriptFile" />
+  <action id="NewPackageJsonFile" />
+  <action id="ReactExtractComponentAction" />
+  <action id="Generate.Constructor.JavaScript" />
+  <action id="ReactFunctionalToClassComponentAction" />
+  <action id="ReactClassToFunctionalComponentAction" />
+  <action id="Generate.GetAccessor.JavaScript" />
+  <action id="Generate.GetSetAccessor.JavaScript" />
+</list>

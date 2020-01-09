@@ -1,0 +1,18 @@
+<list display="GIT">
+  <action id="Git.Reset.In.Log" />
+  <action id="Git.Branches" />
+  <action id="Git.CompareWithBranch" />
+  <action id="Git.Fetch" />
+  <action id="Git.Merge" />
+  <action id="Git.CreateNewBranch" />
+  <action id="Git.Pull" />
+  <action id="Git.Rebase" />
+  <action id="Git.Configure.Remotes" />
+  <action id="Git.Reset" />
+  <action id="Git.ResolveConflicts" />
+  <action id="Git.Revert.In.Log" />
+  <action id="Git.Log" />
+  <action id="Git.Squash.Into.Commit" />
+  <action id="Git.Stash" />
+  <action id="Git.Unstash" />
+</list>
