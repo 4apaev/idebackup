@@ -37,14 +37,11 @@
   <JSCodeStyleSettings version="0">
     <option name="USE_SEMICOLON_AFTER_STATEMENT" value="false" />
     <option name="FORCE_SEMICOLON_STYLE" value="true" />
-    <option name="ALIGN_OBJECT_PROPERTIES" value="2" />
-    <option name="ALIGN_VAR_STATEMENTS" value="2" />
     <option name="SPACE_BEFORE_FUNCTION_LEFT_PARENTH" value="false" />
     <option name="REFORMAT_C_STYLE_COMMENTS" value="true" />
     <option name="USE_DOUBLE_QUOTES" value="false" />
     <option name="FORCE_QUOTE_STYlE" value="true" />
     <option name="USE_EXPLICIT_JS_EXTENSION" value="TRUE" />
-    <option name="VAR_DECLARATION_WRAP" value="5" />
     <option name="SPACES_WITHIN_OBJECT_LITERAL_BRACES" value="true" />
     <option name="SPACES_WITHIN_IMPORTS" value="true" />
     <option name="USE_CHAINED_CALLS_GROUP_INDENTS" value="true" />
@@ -111,7 +108,7 @@
     <option name="ALIGN_MULTILINE_FOR" value="false" />
     <option name="ALIGN_MULTILINE_EXTENDS_LIST" value="true" />
     <option name="SPACE_WITHIN_BRACKETS" value="true" />
-    <option name="METHOD_CALL_CHAIN_WRAP" value="1" />
+    <option name="METHOD_CALL_CHAIN_WRAP" value="5" />
     <option name="TERNARY_OPERATION_WRAP" value="2" />
     <option name="TERNARY_OPERATION_SIGNS_ON_NEXT_LINE" value="true" />
     <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />
