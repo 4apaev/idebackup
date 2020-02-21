@@ -82,7 +82,6 @@
     <keyboard-shortcut first-keystroke="shift meta home" />
     <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
-  <action id="EditorToggleCase" />
   <action id="ExpandDocComments">
     <keyboard-shortcut first-keystroke="shift meta quote" />
   </action>
