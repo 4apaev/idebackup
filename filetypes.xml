@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern=".sequelizerc" type="JavaScript" />
+      <mapping pattern="001_create_tables" type="PLAIN_TEXT" />
       <removed_mapping ext="py" approved="true" type="Perl" />
     </extensionMap>
   </component>
