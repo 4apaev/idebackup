@@ -4,7 +4,7 @@
     <property name="created">2017-08-28T22:39:39</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.2.2.0.0</property>
-    <property name="modified">2020-01-09T05:11:52</property>
+    <property name="modified">2020-05-07T08:37:40</property>
     <property name="originalScheme">Oceanic-Next</property>
   </metaInfo>
   <option name="CONSOLE_FONT_NAME" value="Menlo" />
@@ -25,7 +25,7 @@
     <option name="SELECTION_BACKGROUND" value="4f5b66" />
     <option name="SOFT_WRAP_SIGN_COLOR" value="5fb3b3" />
     <option name="TEARLINE_COLOR" value="343d46" />
-    <option name="WHITESPACES" value="36404b" />
+    <option name="WHITESPACES" value="4a5766" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="a7adba" />
   </colors>
   <attributes>
