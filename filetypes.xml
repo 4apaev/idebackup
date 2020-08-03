@@ -2,12 +2,14 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="s" type="C++" />
+      <mapping pattern=".c8rc" type="JSON" />
       <mapping pattern=".sequelizerc" type="JavaScript" />
-      <mapping pattern="001_create_tables" type="PLAIN_TEXT" />
-      <mapping pattern=".c8rc" type="PLAIN_TEXT" />
       <mapping pattern=".config" type="PLAIN_TEXT" />
       <mapping ext="info" type="PLAIN_TEXT" />
+      <removed_mapping pattern=".c8rc" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="py" approved="true" type="Perl" />
+      <removed_mapping ext="c8rc" approved="true" type="JSCS" />
+      <removed_mapping pattern="001_create_tables" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
