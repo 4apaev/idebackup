@@ -6,6 +6,7 @@
       <mapping pattern=".sequelizerc" type="JavaScript" />
       <mapping pattern=".config" type="PLAIN_TEXT" />
       <mapping ext="info" type="PLAIN_TEXT" />
+      <mapping pattern="ci" type="Shell Script" />
       <removed_mapping pattern=".c8rc" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="py" approved="true" type="Perl" />
       <removed_mapping ext="c8rc" approved="true" type="JSCS" />
