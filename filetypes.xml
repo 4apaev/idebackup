@@ -3,7 +3,7 @@
     <extensionMap>
       <mapping ext="s" type="C++" />
       <mapping pattern=".c8rc" type="JSON" />
-      <removed_mapping pattern=".prettierrc" type="JSON" />
+      <mapping pattern=".prettierrc" type="JSON" />
       <mapping pattern=".sequelizerc" type="JavaScript" />
       <mapping pattern=".config" type="PLAIN_TEXT" />
       <mapping ext="info" type="PLAIN_TEXT" />
