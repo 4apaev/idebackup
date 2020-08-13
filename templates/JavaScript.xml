@@ -157,7 +157,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="assert" value="console.assert($END$)" description="console.assert()" toReformat="true" toShortenFQNames="true">
+  <template name="assert" value="console.assert($END$)" description="console.assert()" toReformat="true" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
