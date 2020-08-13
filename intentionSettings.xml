@@ -3,6 +3,5 @@
     <ignoreAction name="JavaScript/Convert to forEach call on array" />
     <ignoreAction name="JavaScript/JSX/Wrap value with {}" />
     <ignoreAction name="JavaScript/Replace with indexer access" />
-    <ignoreAction name="JavaScript/Convert anonymous function to named function" />
   </component>
 </application>
