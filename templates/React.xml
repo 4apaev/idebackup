@@ -8,14 +8,4 @@
     <variable name="COMP" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="cdc" value="componentDidCatch(error, info) {&#10; $END$&#10;}&#10;" description="Error boundaries catch errors during rendering, in lifecycle methods, and in constructors of the whole tree below them." toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="cdup" value="componentDidUpdate(prevProps, prevState) {&#10; $END$&#10;}&#10;" description="Invoked immediately after the component's updates are flushed to the DOM." toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="rrdc" value="import React, { Component } from 'react';&#10;import { connect } from 'react-redux';&#10;&#10;function mapStateToProps(state) {&#10; return {&#10;&#10; };&#10;}&#10;&#10;function mapDispatchToProps(dispatch) {&#10; return {&#10;&#10; };&#10;}&#10;&#10;class $TM_FILENAME_BASE$ extends Component {&#10; render() {&#10;  return (&#10;   &lt;div&gt;&#10;    $END$&#10;   &lt;/div&gt;&#10;  );&#10; }&#10;}&#10;&#10;export default connect(&#10; mapStateToProps,&#10;)($TM_FILENAME_BASE$);" description="Creates a React component class connected to redux with dispatch" toReformat="true" toShortenFQNames="true">
-    <variable name="TM_FILENAME_BASE" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context />
-  </template>
 </templateSet>
