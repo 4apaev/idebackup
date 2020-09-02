@@ -3,8 +3,12 @@
     <option name="SELECTED_PROFILES">
       <set>
         <option value="CSS" />
+        <option value="ECMAScript 6" />
+        <option value="HTML" />
+        <option value="JSX Harmony" />
+        <option value="JavaScript" />
       </set>
     </option>
-    <option name="LAST_SELECTED_LANGUAGE" value="CSS" />
+    <option name="LAST_SELECTED_LANGUAGE" value="JSX Harmony" />
   </component>
 </application>
