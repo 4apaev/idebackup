@@ -14,6 +14,11 @@
     <option name="RENAME_VARIABLES_INPLACE" value="false" />
   </component>
   <component name="InlayHintsSettings">
+    <option name="disabledHintProviderIds">
+      <set>
+        <option value="JavaScript.js.type.hints" />
+      </set>
+    </option>
     <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
   </component>
   <component name="XmlEditorOptions">
