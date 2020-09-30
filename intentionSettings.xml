@@ -1,7 +1,0 @@
-<application>
-  <component name="IntentionManagerSettings">
-    <ignoreAction name="JavaScript/Convert to forEach call on array" />
-    <ignoreAction name="JavaScript/JSX/Wrap value with {}" />
-    <ignoreAction name="JavaScript/Replace with indexer access" />
-  </component>
-</application>
