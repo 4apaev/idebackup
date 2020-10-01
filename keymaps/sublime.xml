@@ -14,6 +14,7 @@
     <keyboard-shortcut first-keystroke="meta alt d" />
   </action>
   <action id="CompareTwoFiles" />
+  <action id="Console.History.Browse" />
   <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
   <action id="DomCollectionControl.Edit">
@@ -92,6 +93,9 @@
     <keyboard-shortcut first-keystroke="f12" />
   </action>
   <action id="IntroduceField" />
+  <action id="Javascript.Linters.EsLint.Fix">
+    <keyboard-shortcut first-keystroke="meta alt e" />
+  </action>
   <action id="JumpToLastWindow" />
   <action id="MaximizeToolWindow" />
   <action id="MoveLineDown">
